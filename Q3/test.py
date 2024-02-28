@@ -3,7 +3,7 @@ import time
 
 def outp():
     while True:
-        print('Something')
+        print('Hello')
         time.sleep(2)
 
 def inp():
