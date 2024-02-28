@@ -39,7 +39,7 @@ def main():
     worker_host = 'localhost'
     worker_port = 12345
 
-    # Define the task (Python function and its arguments)
+    # Define the task 
     task = {'function': calculate_sum, 'args': (5, 10)}
 
     # Send the task to the worker node
